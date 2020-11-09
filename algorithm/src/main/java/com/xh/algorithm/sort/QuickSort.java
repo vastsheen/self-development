@@ -73,9 +73,9 @@ public class QuickSort {
      * @return key的下标index，也就是分片的间隔点
      */
     public static int partition(int []array,int lo,int hi) {
-        /** 固定的切分方式 */
+        /* 固定的切分方式 */
         int key = array[lo];//选取了基准点
-        while (lo < hi) {
+         while (lo < hi) {
             //从后半部分向前扫描
             while (array[hi] >= key && hi > lo) {
                 hi--;
