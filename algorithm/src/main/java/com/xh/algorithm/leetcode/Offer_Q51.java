@@ -24,8 +24,6 @@ public class Offer_Q51 {
         final int left = mergeSortAndCalcReverse(temp, start, mid);
         final int right = mergeSortAndCalcReverse(temp, mid + 1, end);
 
-        if ()
-
         return 0;
     }
 }
