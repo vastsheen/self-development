@@ -15,6 +15,7 @@
         <module>design-pattern</module>
         <module>demo</module>
         <module>netty-study</module>
+        <module>leetcode-exercise</module>
     </modules>
 
     <dependencies>
